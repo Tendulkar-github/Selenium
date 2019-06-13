@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1488" started-at="2019-06-13T09:34:37Z" finished-at="2019-06-13T09:34:38Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunnerClass1@7d9d1a19]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="1362" started-at="2019-06-13T09:34:37Z" finished-at="2019-06-13T09:34:38Z">
+      <class name="testRunner.TestRunnerClass1">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.TestRunnerClass1@7d9d1a19]" name="setUpClass" is-config="true" duration-ms="694" started-at="2019-06-13T15:04:37Z" finished-at="2019-06-13T15:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunnerClass1@7d9d1a19]" name="feature" duration-ms="308" started-at="2019-06-13T15:04:38Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-06-13T15:04:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Application login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRunnerClass1@7d9d1a19]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2019-06-13T15:04:38Z" finished-at="2019-06-13T15:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunnerClass1 -->
+      <class name="com.tendulkar.selenium.Sample">
+        <test-method status="PASS" signature="Sample1()[pri:0, instance:com.tendulkar.selenium.Sample@4883b407]" name="Sample1" duration-ms="4" started-at="2019-06-13T15:04:37Z" finished-at="2019-06-13T15:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sample1 -->
+      </class> <!-- com.tendulkar.selenium.Sample -->
+      <class name="com.tendulkar.selenium.Module2">
+        <test-method status="PASS" signature="Module2Test1()[pri:0, instance:com.tendulkar.selenium.Module2@5622fdf]" name="Module2Test1" duration-ms="4" started-at="2019-06-13T15:04:37Z" finished-at="2019-06-13T15:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Module2Test1 -->
+        <test-method status="PASS" signature="Module2Test2()[pri:0, instance:com.tendulkar.selenium.Module2@5622fdf]" name="Module2Test2" duration-ms="3" started-at="2019-06-13T15:04:37Z" finished-at="2019-06-13T15:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Module2Test2 -->
+        <test-method status="PASS" signature="Module2Test3()[pri:0, instance:com.tendulkar.selenium.Module2@5622fdf]" name="Module2Test3" duration-ms="4" started-at="2019-06-13T15:04:37Z" finished-at="2019-06-13T15:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Module2Test3 -->
+      </class> <!-- com.tendulkar.selenium.Module2 -->
+      <class name="com.tendulkar.selenium.Module1">
+        <test-method status="PASS" signature="Module1Test1()[pri:0, instance:com.tendulkar.selenium.Module1@6093dd95]" name="Module1Test1" duration-ms="31" started-at="2019-06-13T15:04:37Z" finished-at="2019-06-13T15:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Module1Test1 -->
+        <test-method status="PASS" signature="Module1Test2()[pri:0, instance:com.tendulkar.selenium.Module1@6093dd95]" name="Module1Test2" duration-ms="12" started-at="2019-06-13T15:04:37Z" finished-at="2019-06-13T15:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Module1Test2 -->
+        <test-method status="PASS" signature="Module1Test3()[pri:0, instance:com.tendulkar.selenium.Module1@6093dd95]" name="Module1Test3" duration-ms="8" started-at="2019-06-13T15:04:37Z" finished-at="2019-06-13T15:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Module1Test3 -->
+      </class> <!-- com.tendulkar.selenium.Module1 -->
+    </test> <!-- Test -->
+    <test name="Test2" duration-ms="54" started-at="2019-06-13T09:34:38Z" finished-at="2019-06-13T09:34:38Z">
+      <class name="com.tendulkar.selenium.Sample">
+        <test-method status="PASS" signature="Sample1()[pri:0, instance:com.tendulkar.selenium.Sample@2f686d1f]" name="Sample1" duration-ms="2" started-at="2019-06-13T15:04:38Z" finished-at="2019-06-13T15:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sample1 -->
+      </class> <!-- com.tendulkar.selenium.Sample -->
+      <class name="com.tendulkar.selenium.Module2">
+        <test-method status="PASS" signature="Module2Test1()[pri:0, instance:com.tendulkar.selenium.Module2@4cf777e8]" name="Module2Test1" duration-ms="2" started-at="2019-06-13T15:04:38Z" finished-at="2019-06-13T15:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Module2Test1 -->
+        <test-method status="PASS" signature="Module2Test2()[pri:0, instance:com.tendulkar.selenium.Module2@4cf777e8]" name="Module2Test2" duration-ms="3" started-at="2019-06-13T15:04:38Z" finished-at="2019-06-13T15:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Module2Test2 -->
+        <test-method status="PASS" signature="Module2Test3()[pri:0, instance:com.tendulkar.selenium.Module2@4cf777e8]" name="Module2Test3" duration-ms="2" started-at="2019-06-13T15:04:38Z" finished-at="2019-06-13T15:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Module2Test3 -->
+      </class> <!-- com.tendulkar.selenium.Module2 -->
+      <class name="com.tendulkar.selenium.Module1">
+        <test-method status="PASS" signature="Module1Test1()[pri:0, instance:com.tendulkar.selenium.Module1@59ec2012]" name="Module1Test1" duration-ms="3" started-at="2019-06-13T15:04:38Z" finished-at="2019-06-13T15:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Module1Test1 -->
+        <test-method status="PASS" signature="Module1Test2()[pri:0, instance:com.tendulkar.selenium.Module1@59ec2012]" name="Module1Test2" duration-ms="1" started-at="2019-06-13T15:04:38Z" finished-at="2019-06-13T15:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Module1Test2 -->
+        <test-method status="PASS" signature="Module1Test3()[pri:0, instance:com.tendulkar.selenium.Module1@59ec2012]" name="Module1Test3" duration-ms="2" started-at="2019-06-13T15:04:38Z" finished-at="2019-06-13T15:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Module1Test3 -->
+      </class> <!-- com.tendulkar.selenium.Module1 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
